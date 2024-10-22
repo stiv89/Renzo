@@ -80,32 +80,27 @@
         }
 
         .img-8447-1-icon {
-            position: absolute;
-            top: 579px;
-            left: 17px;
-            border-radius: 71px;
-            width: 395.9px;
-            height: 299.4px;
-            object-fit: contain;
-        }
-        .img-0953-1-icon {
-            position: absolute;
-            top: 0px;
-            left: 50px;
-            border-radius: 67px;
-            width: 363.3px;
-            height: 413.2px;
-            object-fit: contain;
-        }
-        .img-0864-1-icon {
-            position: absolute;
-            top: 249px;
-            left: -1px;
-            border-radius: 74px;
-            width: 413.6px;
-            height: 480.3px;
-            object-fit: contain;
-        }
+    top: 50%;
+    left: 5%;
+    width: 40vw; /* 40% del ancho de la ventana */
+    height: auto; /* Ajusta la altura proporcionalmente al ancho */
+    max-height: 50vh; /* Asegura que la imagen no se salga de la pantalla */
+    transform: translateY(-50%); /* Centrar verticalmente */
+}
+.img-0953-1-icon {
+    top: 0;
+    left: 10%;
+    width: 40vw;
+    height: auto;
+    max-height: 50vh;
+}
+.img-0864-1-icon {
+    top: 30%;
+    left: 0;
+    width: 45vw;
+    height: auto;
+    max-height: 60vh;
+}
         .img-8447-1-parent {
             width: 100%;
             position: relative;
@@ -130,52 +125,63 @@
             color: #ff0000;
         }
         .te-amo-mi-container {
-            position: absolute;
-            top: 778px;
-            left: 110px;
-            display: inline-block;
-            width: 254px;
-            height: 114.4px;
-        }
-        .feliz-primer-mes-container {
-            position: absolute;
-            top: 67px;
-            left: 75px;
-            font-size: 37.93px;
-            display: inline-block;
-            text-align: left;
-            width: 338px;
-            height: 99px;
-        }
-        .frame-child {
-            position: absolute;
-            top: 203px;
-            left: 75px;
-            border-radius: 72px;
-            background-color: #fff;
-            width: 299px;
-            height: 526px;
-            cursor: pointer;
-        }
-        .tahoe {
-            position: absolute;
-            top: 653px;
-            left: 183px;
-            font-size: 21.69px;
-            text-align: center;
-            display: inline-block;
-            width: 64px;
-            height: 29px;
-        }
+    top: 50%;
+    left: 10%;
+    width: 30vw;
+    height: auto;
+    transform: translateY(-50%);
+}
+
+
+.feliz-primer-mes-container {
+    text-align: center;
+    font-size: 4vw; /* Ajusta el tamaño del texto */
+    margin: 10px 0;
+}
+
+.fecha {
+    font-size: 21.69px;
+    text-align: center;
+    color: #000;
+    margin-top: 10px;
+}
+
+.frame-child, .frame-child-fourth, .frame-child-fifth, .frame-child-sixth {
+    position: relative;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 299px;
+    height: 526px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+
+
+
+.tahoe {
+    font-size: 21.69px;
+    text-align: center;
+    color: #000;
+    margin-top: 10px; /* Espaciado entre la imagen y el texto */
+    width: 100%;
+}
+
         .image-1-icon {
-            position: absolute;
-            top: 261px;
-            left: 110px;
-            border-radius: 25px;
-            width: 230px;
-            height: 357px;
-            object-fit: cover;
-        }
+    width: 230px;
+    height: 357px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 15px;
+}
+
+
+
 
         /* Cuarta página */
         .fourth-page {
@@ -191,55 +197,40 @@
         }
 
         .lugar {
-            color: #f07b7b;
-        }
+    color: #f07b7b;
+}
         .cada-lugar {
-            position: absolute;
-            top: 790px;
-            left: -16px;
-            display: inline-block;
-            width: 358px;
-            height: 57px;
-        }
-        .asi-como-en {
-            position: absolute;
-            top: 83px;
-            left: 81px;
-            font-size: 30.8px;
-            display: inline-block;
-            text-align: left;
-            width: 315px;
-            height: 79.6px;
-        }
-        .frame-child-fourth {
-            position: absolute;
-            top: 203px;
-            left: 75px;
-            border-radius: 72px;
-            background-color: #fff;
-            width: 299px;
-            height: 526px;
-            cursor: pointer;
-        }
-        .per {
-            position: absolute;
-            top: 658px;
-            left: 189px;
-            font-size: 21.69px;
-            text-align: center;
-            display: inline-block;
-            width: 64px;
-            height: 29px;
-        }
+    position: relative;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 3vw; /* Ajusta según el ancho de la pantalla */
+}
+
+
+.asi-como-en {
+    font-size: 4vw; /* Ajusta el tamaño según la pantalla */
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+
+.per {
+    font-size: 21.69px;
+    text-align: center;
+    color: #000;
+    margin-top: 10px; /* Espaciado entre la imagen y el texto */
+}
         .img-0938-1-icon {
-            position: absolute;
-            top: 261px;
-            left: 110px;
-            border-radius: 25px;
-            width: 230px;
-            height: 357px;
-            object-fit: cover;
-        }
+    width: 230px;
+    height: 357px;
+    object-fit: cover;
+    margin-bottom: 10px; /* Para que el texto de Perú no quede pegado a la imagen */
+}
+
 
         /* Quinta página */
         .fifth-page {
@@ -255,64 +246,50 @@
         }
 
         .y-lo-seguire {
-            position: absolute;
-            top: 753px;
-            left: 185px;
-            display: inline-block;
-            text-align: right;
-            width: 182px;
-            height: 82px;
-        }
-        .siempre {
-            position: absolute;
-            top: 835px;
-            left: -8px;
-            font-size: 57.95px;
-            display: inline-block;
-            color: #fff;
-            width: 466.6px;
-            height: 83px;
-        }
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 3vw;
+}
+
+
+.siempre {
+    font-size: 5vw; /* Ajusta el tamaño según el ancho de la pantalla */
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+}
         .elijo {
             color: #ff0000;
         }
         .me-doy-cuenta-container {
-            position: absolute;
-            top: 67px;
-            left: 75px;
-            display: inline-block;
-            text-align: left;
-            width: 299px;
-            height: 112px;
-        }
-        .frame-child-fifth {
-            position: absolute;
-            top: 203px;
-            left: 75px;
-            border-radius: 72px;
-            background-color: #fff;
-            width: 299px;
-            height: 526px;
-            cursor: pointer;
-        }
-        .costa-rica {
-            position: absolute;
-            top: 660px;
-            left: 164px;
-            font-size: 21.69px;
-            display: inline-block;
-            width: 122px;
-            height: 29px;
-        }
+    font-size: 4vw; /* Ajusta el tamaño según el ancho de la pantalla */
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+
+.costa-rica {
+    font-size: 21.69px;
+    text-align: center;
+    color: #000;
+    margin-top: 10px; /* Espaciado entre la imagen y el texto */
+    width: 100%;
+}
         .img-8580-1-icon {
-            position: absolute;
-            top: 261px;
-            left: 110px;
-            border-radius: 25px;
-            width: 230px;
-            height: 357px;
-            object-fit: cover;
-        }
+    width: 230px;
+    height: 357px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 15px;
+}
+
 
         /* Sexta página */
         .sixth-page {
@@ -327,57 +304,46 @@
             color: #000;
         }
 
-        .frame-child-sixth {
-            position: absolute;
-            top: 203px;
-            left: 75px;
-            border-radius: 72px;
-            background-color: #fff;
-            width: 299px;
-            height: 526px;
-        }
+
+
         .paraguay {
-            position: absolute;
-            top: 677px;
-            left: 164px;
-            display: inline-block;
-            width: 122px;
-            height: 29px;
-        }
+    font-size: 21.69px;
+    text-align: center;
+    color: #000;
+    margin-top: 5px; /* Espaciado entre la fecha y el texto de país */
+}
         .img-0388-1-icon {
-            position: absolute;
-            top: 261px;
-            left: 110px;
-            border-radius: 25px;
-            width: 230px;
-            height: 357px;
-            object-fit: cover;
-        }
-        .gracias-por-ensearme {
-            position: absolute;
-            top: 84px;
-            left: 67px;
-            font-size: 28px;
-            display: inline-block;
-            width: 306.5px;
-            height: 73.1px;
-        }
+    width: 230px;
+    height: 357px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 15px;
+}
+
+
+.gracias-por-ensearme {
+    font-size: 4vw; /* Ajusta el tamaño según el ancho de la pantalla */
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
         .mii {
             color: #fff;
         }
         .vida {
             color: #ff0000;
         }
-        .te-amo-amor-container {
-            position: absolute;
-            top: 788px;
-            left: 0px;
-            font-size: 31.42px;
-            display: inline-block;
-            text-align: right;
-            width: 407px;
-            height: 42px;
-        }
+/* Ajustes para el texto "te amo amor de mii vida" */
+.te-amo-amor-container {
+    font-size: 4vw; /* Ajusta el tamaño según el ancho de la pantalla */
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
         .i {
             position: absolute;
             top: 625px;
@@ -400,6 +366,17 @@
     object-fit: cover;
     cursor: pointer; /* Para que sea clicable */
 }
+
+.page {
+    display: none;
+    width: 100%;
+    position: relative;
+    background-color: #e9cabc;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
 @keyframes flyUp {
     0% {
         transform: translate(-50%, 0);
@@ -429,39 +406,86 @@
     animation: bounceIn 0.6s ease-in-out;
 }
 
-/* Para pantallas pequeñas, como móviles */
+/* Estilo responsivo para pantallas pequeñas */
 @media (max-width: 768px) {
-    .container {
-        width: 90%;
+    .frame-child {
+        width: 80%;
+        height: auto;
+        max-width: 299px;
+        max-height: 526px;
+    }
+
+    .image-1-icon {
+        width: 80%;
+        height: auto;
+        max-width: 230px;
+        max-height: 357px;
         margin: 0 auto;
     }
-    .sabes-una-cosa {
-        font-size: 20px;
-    }
-    .button {
-        font-size: 18px;
-        padding: 10px 20px;
-    }
-    .img-8447-1-icon, .img-0953-1-icon, .img-0864-1-icon, .image-1-icon, .img-0938-1-icon, .img-8580-1-icon, .img-0388-1-icon {
-        width: 100%;
+
+
+    .img-0938-1-icon {
+        width: 80%;
         height: auto;
-        left: 0;
-        top: 0;
-        border-radius: 10px;
+        max-width: 230px;
+        max-height: 357px;
     }
-    .button-container {
-        margin-top: 20px;
-    }
-    .airport-icon {
-        width: 50px;
-        height: 50px;
-    }
-    .frame-child, .frame-child-fourth, .frame-child-fifth, .frame-child-sixth {
-        width: 90%;
+
+/* Ajustes para el texto "Cada lugar" */
+.cada-lugar {
+    font-size: 4vw;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+    .img-8580-1-icon {
+        width: 80%;
         height: auto;
-        left: 5%;
-        top: auto;
+        max-width: 230px;
+        max-height: 357px;
     }
+
+/* Ajustes para el texto "y lo seguiré haciendo siempre" */
+.y-lo-seguire {
+    font-size: 3vw; /* Ajusta el tamaño según el ancho de la pantalla */
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+    .img-0388-1-icon {
+        width: 80%;
+        height: auto;
+        max-width: 230px;
+        max-height: 357px;
+    }
+
+    .gracias-por-ensearme, .te-amo-amor-container {
+        font-size: 4vw; /* Ajusta el tamaño del texto para pantallas pequeñas */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -492,78 +516,89 @@
         </div>
     </div>
 
-    <!-- Tercera página -->
-    <!-- Tercera página -->
-    <div id="thirdPage" class="third-page">
-        <div class="te-amo-mi-amor-parent">
-            <b class="te-amo-mi-container">
-                <span>Te amo mi </span>
-                <span class="amor">amor</span>
-            </b>
-            <b class="feliz-primer-mes-container">
-                <span>feliz primer mes</span>
-                <span class="amor"> juntos</span>
-            </b>
-            <!-- Aquí aplicamos el evento onclick para la animación -->
-            <div class="frame-child" onclick="triggerBounce(); setTimeout(showFourthPage, 600);"></div>
-            <div class="tahoe">Tahoe</div>
-            <!-- Aquí agregamos el id para la animación -->
-            <img id="imageToAnimate" class="image-1-icon" alt="" src="static/image 1.png">
-        </div>
+<!-- Tercera página -->
+<!-- Tercera página -->
+<div id="thirdPage" class="third-page">
+    <b class="feliz-primer-mes-container">
+        <span>feliz primer mes</span>
+        <span class="amor"> juntos</span>
+    </b>
+    <!-- Aquí envolvemos la imagen dentro del frame-child -->
+    <div class="frame-child" onclick="triggerBounce(); setTimeout(showFourthPage, 600);">
+        <img id="imageToAnimate" class="image-1-icon" alt="" src="static/image 1.png">
+        <div class="tahoe">Tahoe</div>
     </div>
+    <b class="te-amo-mi-container">
+        <span>Te amo mi </span>
+        <span class="amor">amor</span>
+    </b>
+</div>
 
 
-    <!-- Cuarta página -->
-    <div id="fourthPage" class="fourth-page">
-        <div class="cada-lugar-parent">
-            <b class="cada-lugar">
-                <span>Cada </span>
-                <span class="lugar">lugar</span>
-            </b>
-            <b class="asi-como-en">asi como en cada pais que nos vimos</b>
-            <div class="frame-child-fourth" onclick="showFifthPage()"></div>
-            <div class="per">Perú</div>
-            <img class="img-0938-1-icon" alt="" src="static/IMG_0938 1.png">
-        </div>
-    </div>
 
-    <!-- Quinta página -->
-    <div id="fifthPage" class="fifth-page">
-        <div class="y-lo-seguire-haciendo-parent">
-            <b class="y-lo-seguire">y lo seguire haciendo</b>
-            <b class="siempre">siempre</b>
-            <b class="me-doy-cuenta-container">
-                <span>Me doy cuenta que siempre te</span>
-                <span class="elijo"> elijo</span>
-            </b>
-            <div class="frame-child-fifth" onclick="showSixthPage()"></div>
-            <div class="costa-rica">Costa Rica</div>
-            <img class="img-8580-1-icon" alt="" src="static/IMG_8580 1.png">
-        </div>
-    </div>
 
-    <!-- Sexta página -->
-    <div id="sixthPage" class="sixth-page">
-        <div class="rectangle-parent">
-            <div class="frame-child-sixth"></div>
-            <div class="paraguay">Paraguay</div>
-            <img class="img-0388-1-icon" alt="" src="static/IMG_0388 1.png">
-            <b class="gracias-por-ensearme">gracias por enseñarme a vivir </b>
-            <b class="te-amo-amor-container">
-                <span>te amo amor de </span>
-                <span class="mii">mii </span>
-                <span class="vida">vida</span>
-            </b>
-            <i class="i">22-09-24</i>
-        </div>
+
+<!-- Cuarta página -->
+<!-- Cuarta página -->
+<div id="fourthPage" class="fourth-page">
+    <b class="asi-como-en">asi como en cada pais que nos vimos</b>
+    <!-- Aquí envolvemos la imagen dentro del frame-child-fourth -->
+    <div class="frame-child-fourth" onclick="showFifthPage()">
+        <img class="img-0938-1-icon" alt="" src="static/IMG_0938 1.png">
+        <div class="per">Perú</div>
     </div>
+    <b class="cada-lugar">
+        <span>Cada </span>
+        <span class="lugar">lugar</span>
+    </b>
+</div>
+
+
+
+<!-- Quinta página -->
+<div id="fifthPage" class="fifth-page">
+    <b class="me-doy-cuenta-container">
+        <span>Me doy cuenta que siempre te</span>
+        <span class="elijo"> elijo</span>
+    </b>
+    <!-- Envolvemos la imagen dentro del frame-child-fifth -->
+    <div class="frame-child-fifth" onclick="showSixthPage()">
+        <img class="img-8580-1-icon" alt="" src="static/IMG_8580 1.png">
+        <div class="costa-rica">Costa Rica</div>
+    </div>
+    <b class="y-lo-seguire">
+        <span>y lo seguiré </span>
+        <span class="haciendo">haciendo</span>
+    </b>
+    <b class="siempre">siempre</b>
+</div>
+
+
+
+<!-- Sexta página -->
+<!-- Sexta página -->
+<div id="sixthPage" class="sixth-page">
+    <b class="gracias-por-ensearme">gracias por enseñarme a vivir</b>
+    <!-- Envolvemos la imagen dentro del frame-child-sixth -->
+    <div class="frame-child-sixth">
+        <img class="img-0388-1-icon" alt="" src="static/IMG_0388 1.png">
+        <div class="fecha">22-09-24</div>
+        <div class="paraguay">Paraguay</div>
+    </div>
+    <b class="te-amo-amor-container">
+        <span>te amo amor de </span>
+        <span class="mii">mii </span>
+        <span class="vida">vida</span>
+    </b>
+</div>
+
 
     <script>
         function showSecondPage() {
             document.getElementById('firstPage').style.display = 'none';
             document.getElementById('secondPage').style.display = 'block';
             
-            setTimeout(showThirdPage, 3000);
+            setTimeout(showThirdPage, 1000);
         }
 
         function showThirdPage() {
